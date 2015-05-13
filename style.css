@@ -1,0 +1,205 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+#wrapper{
+	width:970px;
+	padding:5px;
+}
+
+#header{
+	width:970px;
+	background: -webkit-linear-gradient(top, #E9E9E9,#FFFFFF); 
+	background:    -moz-linear-gradient(top, #E9E9E9,#FFFFFF); 
+	background:     -ms-linear-gradient(top, #E9E9E9,#FFFFFF); 
+	background:      -o-linear-gradient(top, #E9E9E9,#FFFFFF); 
+	background:         linear-gradient(top, #E9E9E9,#FFFFFF);
+}
+
+#logo{
+	display:inline-block;
+	padding:0px 15px 0px 0px;
+}
+
+#call{
+	display:inline-block;
+	padding:20px 15px 15px 150px;
+	vertical-align: top;
+}
+
+#nav{
+	background: -webkit-linear-gradient(#F0F3F5, #DBE1E6,#F0F3F5); 
+	background:    -moz-linear-gradient(#F0F3F5, #DBE1E6,#F0F3F5); 
+	background:     -ms-linear-gradient(#F0F3F5, #DBE1E6,#F0F3F5); 
+	background:      -o-linear-gradient(#F0F3F5, #DBE1E6,#F0F3F5); 
+	background:         linear-gradient(#F0F3F5, #DBE1E6,#F0F3F5);
+	border-top-style:solid;
+	border-width:1px;
+	border-collapse:collapse;
+	border-color:#B2B2B2;
+}
+
+}
+#nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+#nav ul li{
+	display:inline-block;
+	border-width:1px;
+	border-right-style:groove;
+	border-collapse: collapse;
+	border-color:white;
+	margin:0px;
+	padding:0px 15px;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color: #716E6A;
+	font-weight:bold;
+	margin:0px;
+	display:block;
+	position:relative;
+}
+
+.fontshrink{
+	font-size:75%;
+}
+
+#blankspace{
+	clear:both;
+	display:block;
+	width:970px;
+	height:20px;
+	background:#F4F4F4;
+}
+#contentinfo{
+	background: -webkit-linear-gradient(left,#000000, #51514F , #000000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left,#000000, #51514F, #000000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left,#000000, #51514F, #000000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to left, #000000, #51514F , #000000); /* Standard syntax */
+	padding:15px 20px 15px 30px;
+}
+
+#content{
+
+}
+
+#picture{
+	border-width:5px;
+	border-color:white;
+	border-style:solid;
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+}
+
+#about{
+	margin-left:20px;
+	width:500px;
+	display:inline-block;
+	vertical-align: top;
+	color:white;
+}
+
+.aboutpreview{
+	padding:15px;
+	background: -webkit-linear-gradient(right,#767675, #373737); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,#767675, #373737); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,#767675, #373737); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right,#767675, #373737); /* Standard syntax */
+	font-size:85%;
+	height:216px;
+}
+
+.space{
+	padding-bottom:15px;
+}
+
+.bolder{
+	font-weight: 700;
+}
+
+.bold{
+	font-weight:600;
+}
+
+.smaller{
+	font-size:80%;
+}
+
+#bulkinfo{
+	width:970px;
+	margin-bottom:15px;
+}
+
+#bulkpic{
+	display:inline-block;
+}
+
+.bulkdesc{
+	display:inline-block;
+	vertical-align: top;
+	color:#91915E;
+	font-size:75%;
+	padding-top:8px;
+}
+
+#info{
+}
+
+.addinfo{
+	vertical-align: top;
+	display:inline-block;
+	width:222px;
+	height:290px;
+	margin-right:3.5px;
+	background: -webkit-linear-gradient(top,#FFFFFF, #FEF4DD); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top,#FFFFFF, #FEF4DD); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top,#FFFFFF, #FEF4DD); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top,#FFFFFF, #FEF4DD); /* Standard syntax */
+}
+
+.addinfotitle{
+	color:black;
+	padding-left:2px;
+	background: -webkit-linear-gradient(#F9D14E, #E1BD4E); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#F9D14E, #E1BD4E); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#F9D14E, #E1BD4E); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to #F9D14E, #E1BD4E); /* Standard syntax */
+}
+
+.addinfopic{
+}
+
+.addinfopreview{
+	padding-left:2px;
+}
+
+.addmoreinfobottom{
+	display:inline-block;
+}
+
+.addinforeadmore1{
+	display:inline-block;
+	position:absolute;
+	margin-top:16px;
+	padding-left: 15px;
+	margin-left:100px;
+}
+.addinforeadmore2{
+	display:inline-block;
+	position:absolute;
+	margin-top:0px;
+	padding-left: 15px;
+	margin-left:100px;
+}
+
+
